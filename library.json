@@ -1,0 +1,47 @@
+{
+    "name": "Zumo32U4",
+    "version": "2.0.1",
+    "description": "Zumo 32U4 Arduino library",
+    "keywords": "",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/pololu/zumo-32u4-arduino-library"
+    },
+    "authors": [{
+        "name": "Pololu",
+        "email": "inbox@pololu.com",
+        "maintainer": true
+    }],
+    "license": "MIT",
+    "frameworks": "*",
+    "platforms": "*",
+    "dependencies": [{
+        "owner": "pololu",
+        "name": "FastGPIO",
+        "version": "^2.2.0"
+    }, {
+        "owner": "pololu",
+        "name": "USBPause",
+        "version": "^2.0.0"
+    }, {
+        "owner": "pololu",
+        "name": "Pushbutton",
+        "version": "^2.0.0"
+    }, {
+        "owner": "pololu",
+        "name": "PololuBuzzer",
+        "version": "^1.2.0"
+    }, {
+        "owner": "pololu",
+        "name": "PololuHD44780",
+        "version": "^2.0.0"
+    }, {
+        "owner": "pololu",
+        "name": "PololuOLED",
+        "version": "^2.0.0"
+    }, {
+        "owner": "pololu",
+        "name": "PololuMenu",
+        "version": "^2.0.0"
+    }]
+}
